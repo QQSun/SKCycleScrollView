@@ -61,8 +61,6 @@ private let kSKCycleScrollViewPageControlDotSize = CGSize.init(width: 10.0, heig
 
 extension SKCycleScrollView {
     
-    
-    
     /// 默认图片
     var placeholderImage: UIImage? {
         get {
@@ -290,6 +288,7 @@ class SKCycleScrollView: UIView, UICollectionViewDataSource, UICollectionViewDel
     weak var delegate: SKCycleScrollViewDelegate?
     var didSelectItemAt: cycleScrollViewClosure?;
     var didScrollTo: cycleScrollViewClosure?
+    
     
     
     var _flowLayout: UICollectionViewFlowLayout!
